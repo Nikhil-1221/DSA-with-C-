@@ -2,6 +2,7 @@
 using namespace std;
 int main(){
     cout<<"Namaste Duniya"<<endl;
+    //Data types
     int a=12;
     cout<<"Size of "<<a<<" is "<<sizeof(a)<<endl;
     char b='b';
@@ -12,7 +13,7 @@ int main(){
     cout<<"Size of "<<f<<" is "<<sizeof(f)<<endl;
     double d = 1.23;
     cout<<"Size of "<<d<<" is "<<sizeof(d)<<endl;
-
+    //Type Casting
     int tc='a';
     cout<<tc<<endl;
     char tc1=98;
@@ -26,7 +27,7 @@ int main(){
     unsigned us1=-2;
     cout<<us1<<endl;
 
-
+    //Operators
     cout<<24/2.5<<endl;
 
     int r1,r2,x=2,y=5;
