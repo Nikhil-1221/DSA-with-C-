@@ -1,6 +1,10 @@
 #include<iostream>
 using namespace std;
 
+// 3
+// ***
+// ***
+// ***
 // int main(){
 //     int n;
 //     cin>>n;
@@ -16,6 +20,10 @@ using namespace std;
 //     }
 // }
 
+// 3
+// 111
+// 222
+// 333
 // int main()
 // {
 //     int n;
@@ -32,6 +40,10 @@ using namespace std;
 //     }
 // }
 
+// 3
+// 123
+// 123
+// 123
 // int main(){
 //     int n;
 //     cin>>n;
@@ -47,6 +59,10 @@ using namespace std;
 //     }
 // }
 
+// 3
+// 321
+// 321
+// 321
 // int main(){
 //     int n;
 //     cin>>n;
@@ -62,7 +78,10 @@ using namespace std;
 //     }
 // }
 
-
+// 3
+// 1 2 3 
+// 4 5 6 
+// 7 8 9
 // int main(){
 //     int n;
 //     cin>>n;
@@ -82,6 +101,10 @@ using namespace std;
 
 //Triangle 
 
+// 3
+// * 
+// * * 
+// * * * 
 // int main(){
 //     int n;
 //     cin>>n;
@@ -97,6 +120,10 @@ using namespace std;
 //     }
 // }
 
+// 3
+// 1
+// 2 2
+// 3 3 3
 // int main(){
 //     int n;
 //     cin>>n;
@@ -112,6 +139,10 @@ using namespace std;
 //     }
 // }
 
+// 3
+// 1 
+// 1 2 
+// 1 2 3 
 // int main(){
 //     int n;
 //     cin>>n;
@@ -127,6 +158,10 @@ using namespace std;
 //     }
 // }
 
+// 3
+// 1 
+// 2 3 
+// 4 5 6 
 // int main(){
 //     int n;
 //     cin>>n;
@@ -143,6 +178,10 @@ using namespace std;
 //     }
 // }
 
+// 3
+// 1
+// 2 3
+// 3 4 5
 // int main(){
 //     int n;
 //     cin>>n;
@@ -225,7 +264,10 @@ using namespace std;
 //     }
 // }
 
-
+// 3
+// A B C
+// A B C
+// A B C
 // int main(){
 //     int n;
 //     cin>>n;
@@ -243,6 +285,10 @@ using namespace std;
 //     }
 // }
 
+// 3
+// A A B 
+// A A B 
+// A A B 
 // int main(){
 //     int n;
 //     cin>>n;
@@ -260,6 +306,10 @@ using namespace std;
 //     }
 // }
 
+// 3
+// A B C 
+// D E F 
+// G H I 
 // int main(){
 //     int n;
 //     cin>>n;
@@ -274,5 +324,26 @@ using namespace std;
 //         }
 //         row++;
 //         cout<<endl;
+//     }
+// }
+
+// 3
+// ABC
+// BCD
+// CDE
+// int main(){
+//     int n;
+//     cin>>n;
+//     int row=1;
+//     char ch='A';
+//     while(row<=n){
+//         int col=1;
+//         while(col<=n){
+//             char ch1=ch+row+col-2;
+//             cout<<ch1;
+//             col++;
+//         }
+//         cout<<endl;
+//         row++;
 //     }
 // }
