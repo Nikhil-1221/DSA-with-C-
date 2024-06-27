@@ -199,7 +199,10 @@ using namespace std;
 //     }
 // }
 
-
+// 3
+// 1 
+// 2 3 
+// 3 4 5 
 // int main(){
 //     int n;
 //     cin>>n;
@@ -215,6 +218,10 @@ using namespace std;
 //     }
 // }
 
+// 3
+// 1 
+// 2 1 
+// 3 2 1
 // int main(){
 //     int n;
 //     cin>>n;
@@ -230,6 +237,10 @@ using namespace std;
 //     }
 // }
 
+// 3
+// AAA
+// BBB
+// CCC
 // int main(){
 //     int n;
 //     cin>>n;
@@ -247,6 +258,10 @@ using namespace std;
 //     }
 // }
 
+// 3
+// AAA
+// AAA
+// BBB
 // int main(){
 //     int n;
 //     cin>>n;
@@ -341,6 +356,67 @@ using namespace std;
 //         while(col<=n){
 //             char ch1=ch+row+col-2;
 //             cout<<ch1;
+//             col++;
+//         }
+//         cout<<endl;
+//         row++;
+//     }
+// }
+
+// 3
+// A
+// BB
+// CCC
+// int main(){
+//     int n;
+//     cin>>n;
+//     int row =1;
+//     while(row<=n){
+//         int col=1;
+//         while(col<=row){
+//             char ch='A'+row-1;
+//             cout<<ch;
+//             col++;
+//         }
+//         cout<<endl;
+//         row++;
+//     }
+// }
+
+// 3
+// A
+// AB
+// ABC
+// int main(){
+//     int n;
+//     cin>>n;
+//     int row =1;
+//     while(row<=n){
+//         int col=1;
+//         while(col<=row){
+//             char ch='A'+col-1;
+//             cout<<ch;
+//             col++;
+//         }
+//         cout<<endl;
+//         row++;
+//     }
+// }
+
+// 3
+// A
+// BC
+// DEF
+// int main(){
+//     int n;
+//     cin>>n;
+//     int row =1;
+//     char ch = 'A';
+//     while(row<=n){
+//         int col=1;
+//         while(col<=row){
+//             cout<<ch;
+//             ch++;
 //             col++;
 //         }
 //         cout<<endl;
