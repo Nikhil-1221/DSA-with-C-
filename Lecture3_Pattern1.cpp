@@ -423,3 +423,9 @@ using namespace std;
 //         row++;
 //     }
 // }
+
+int main(){
+    int n;
+    cin>>n;
+    
+}
