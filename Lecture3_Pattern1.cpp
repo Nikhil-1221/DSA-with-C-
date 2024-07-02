@@ -424,8 +424,287 @@ using namespace std;
 //     }
 // }
 
-int main(){
-    int n;
-    cin>>n;
-    
-}
+// A
+// BC
+// CDE
+// int main(){
+//     int n;
+//     cin>>n;
+//     int row=1;
+//     while(row<=n){
+//         int col = 1;
+//         char ch='A'+row-1;
+//         while(col<=row){
+//             cout<<ch;
+//             ch++;
+//             col++;
+//         }
+//         cout<<endl;
+//         row++;
+//     }
+// }
+
+
+// 3
+// C
+// BC
+// ABC
+// int main(){
+//     int n;
+//     cin>>n;
+//     int row =1;
+//     while(row<=n){
+//        int col=1;
+//        char ch='A'+n-row;
+//         while(col<=row){
+//             col++;
+//             cout<<ch;
+//             ch++;
+//         }
+//         cout<<endl;
+//         row++;
+//     }
+// }
+
+// 3
+// ABC
+// BCD
+// CDE
+// int main(){
+//     int n;
+//     cin>>n;
+//     int row =1;
+//     while(row<=n)
+//     {
+//         char ch = 'A'+row-1;;
+//         int col=1;
+//         while(col<=n){
+//             col++;
+//             cout<<ch;
+//             ch++;
+//         }
+//         cout<<endl;
+//         row++;
+
+//     }
+// }
+
+// 3
+//   *
+//  **
+// ***
+// int main(){
+//     int n;
+//     cin>>n;
+//     int row = 1;
+//     while(row<=n){
+//         int col=1;
+//         while(col<=n-row){
+//             cout<<" ";
+//             col++;
+//         }
+//         while(col<=n){
+//             cout<<"*";
+//             col++;
+//         }
+//         cout<<endl;
+//         row++;
+//     }
+// }
+
+// 3
+// ***
+// **
+// *
+// int main(){
+//     int n;
+//     cin>>n;
+//     int row = 1;
+//     while(row<=n){
+//         int col=1;
+//         while(col<=n-row+1){
+//             cout<<"*";
+//             col++;
+//         }
+//         cout<<endl;
+//         row++;
+//     }
+// }
+
+// 3
+// ***
+//  **
+//   *
+// int main(){
+//     int n;
+//     cin>>n;
+//     int row=1;
+//     while(row<=n){
+//         int col=1;
+//         while(col<row){
+//             cout<<" ";
+//             col++;
+//         }
+//         while(col<=n){
+//             cout<<"*";
+//             col++;
+//         }
+//         cout<<endl;
+//         row++;
+//     }
+// }
+
+// 3
+// 111
+//  22
+//   3
+// int main(){
+//     int n;
+//     cin>>n;
+//     int row=1;
+//     while(row<=n){
+//         int col=1;
+//         while(col<row){
+//             cout<<" ";
+//             col++;
+//         }
+//         while(col<=n){
+//             cout<<row;
+//             col++;
+//         }
+//         cout<<endl;
+//         row++;
+//     }
+// }
+
+// 3
+//   1
+//  22
+// 333
+// int main(){
+//     int n;
+//     cin>>n;
+//     int row=1;
+//     while(row<=n){
+//         int col=1;
+//         while(col<=n-row){
+//             cout<<" ";
+//             col++;
+//         }
+//         while(col<=n){
+//             cout<<row;
+//             col++;
+//         }
+//         cout<<endl;
+//         row++;
+//     }
+// }
+
+// 3
+// 123
+//  23
+//   3
+// int main(){
+//     int n;
+//     cin>>n;
+//     int row=1;
+//     while(row<=n){
+//         int col=1;
+//         while(col<row){
+//             cout<<" ";
+//             col++;
+//         }
+//         int val=row;
+//         while(col<=n){
+//             cout<<val;
+//             col++;
+//             val++;
+//         }
+//         cout<<endl;
+//         row++;
+//     }
+// }
+
+// 3
+//   1
+//  23
+// 456
+// int main(){
+//     int n;
+//     cin>>n;
+//     int row=1;
+//     int count=1;
+//     while(row<=n){
+//         int col=1;
+//         while(col<=n-row){
+//             cout<<" ";
+//             col++;
+//         }
+//         while(col<=n){
+//             cout<<count;
+//             count++;
+//             col++;
+//         }
+//         row++;
+//         cout<<endl;
+//     }
+// }
+
+
+// 3
+//   1
+//  121
+// 12321
+// int main(){
+//     int n;
+//     cin>>n;
+//     int row = 1;
+//     while(row<=n){
+//         int col=1;
+//         while(col<=n-row){
+//             cout<<" ";
+//             col++;
+//         }
+//         int val=1;
+//         while(col<=n){
+//             cout<<val;
+//             val++;
+//             col++;
+//         }
+//         val--;
+//         while(col<=n+row-1){
+//             val--;
+//             cout<<val;
+//             col++;
+//         }
+//         row++;
+//         cout<<endl;
+//     }
+// }
+
+// 3
+// 123321
+// 12**21
+// 1****1
+// int main(){
+//     int n;
+//     cin>>n;
+//     int row = 1;
+//     while(row<=n){
+//         int col=1;
+//         while(col<=n-row+1){
+//             cout<<col;
+//             col++;
+//         }
+//         while(col<=n+row-1){
+//             cout<<"*";
+//             col++;
+//         }
+//         while(col<=2*n){
+//             cout<<2*n-col+1;
+//             col++;
+//         }
+//         row++;
+//         cout<<endl;
+//     }
+// }
