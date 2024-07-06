@@ -16,4 +16,13 @@ int main(){
     cout<<"a<<1 => "<<(a<<1)<<"       "<<"a<<2 => "<<(a<<2)<<endl;
     // Right Shift
     cout<<"a>>1 => "<<(a>>1)<<"       "<<"a>>2 => "<<(a>>2)<<endl;
+
+    // Negative no
+    a=-2;
+    //Left Shift
+    cout<<"a<<1 => "<<(a<<1)<<"       "<<"a<<2 => "<<(a<<2)<<endl;
+    // Right Shift
+    cout<<"a>>1 => "<<(a>>1)<<"       "<<"a>>2 => "<<(a>>2)<<endl;
+
+
 }
