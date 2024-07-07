@@ -66,16 +66,98 @@ using namespace std;
 
 // Problem of the Day
 // OUTPUT
+// int main(){
+//     int a=1;
+//     int b=2;
 
-int main(){
-    int a=1;
-    int b=2;
+//     if((a--) > 0 || (++b)>2){
+//         cout<<"Stage1 - Inside If ";
+//     }
+//     else{
+//         cout<<"Stage2 - Inside else ";
+//     }
+//     cout<<a<<" "<<b<<endl;
+// }
 
-    if((a--) > 0 || (++b)>2){
-        cout<<"Stage1 - Inside If ";
-    }
-    else{
-        cout<<"Stage2 - Inside else ";
-    }
-    cout<<a<<" "<<b<<endl;
-}
+//  int main(){
+//     int a=1;
+//     int b=a++;
+//     int c=++a;
+//     cout<<a<<endl<<b<<endl<<c<<endl;
+// }
+
+                    // For loop
+// int main(){
+//     int n;
+//     cout<<"Enter a number : ";
+//     cin>>n;
+//     cout<<"Print counting from 1 to n"<<endl;
+//     for(int i=1;i<=n;i++){
+//         cout<<i<<endl;
+//     }
+// }
+
+// withiout initialization inside for loop
+// int main(){
+//     int n;
+//     cout<<"Enter a number : ";
+//     cin>>n;
+//     cout<<"Print counting from 1 to n"<<endl;
+//     int i=1;
+//     for(;i<=n;i++){
+//         cout<<i<<endl;
+//     }
+// }
+
+// withiout increment or decrement  inside for loop
+// int main(){
+//     int n;
+//     cout<<"Enter a number : ";
+//     cin>>n;
+//     cout<<"Print counting from 1 to n"<<endl;
+//     int i=1;
+//     for(;i<=n;){
+//         cout<<i<<endl;
+//         i++;
+//     }
+// }
+
+// withiout conditions inside for loop
+// int main(){
+//     int n;
+//     cout<<"Enter a number : ";
+//     cin>>n;
+//     cout<<"Print counting from 1 to n"<<endl;
+//     int i=1;
+//     for(;;){
+//         if(i<=n){
+//         cout<<i<<endl;
+//         }
+//         i++;
+//     }
+// }
+
+// withiout conditions inside for loop and using break key word
+// int main(){
+//     int n;
+//     cout<<"Enter a number : ";
+//     cin>>n;
+//     cout<<"Print counting from 1 to n"<<endl;
+//     int i=1;
+//     for(;;){
+//         if(i<=n){
+//         cout<<i<<endl;
+//         }
+//         else{
+//             break;
+//         }
+//         i++;
+//     }
+// }
+
+// for loop using multiple initialization , conditions and increment or decrement
+// int main(){
+//     for(int a=2,b=4;a>=0 && b>=1;a--,b--){
+//         cout<<a<<"      "<<b<<endl;
+//     }
+// }
