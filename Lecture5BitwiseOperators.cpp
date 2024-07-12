@@ -299,3 +299,33 @@ using namespace std;
 //         cout<<i<<endl;
 //     }
 // }
+                        // Leetcode
+// class Solution {
+// public:
+//     int hammingWeight(int n) {
+//         int count =0;
+//         while(n!=0){
+//             // Checkin last bit
+//             if(n&1){
+//                 count++;
+//             }
+//             n=n>>1;
+//         }
+//         return count;
+//     }
+// };
+
+// class Solution {
+// public:
+//     int subtractProductAndSum(int n) {
+//         int sum=0,pro=1;
+//         while(n!=0){
+//             int rem=n%10;
+//             sum=sum+rem;
+//             pro=pro*rem;
+//             n=n/10;
+//         }
+//         int ans=pro-sum;
+//         return ans;
+//     }
+// };
