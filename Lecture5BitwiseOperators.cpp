@@ -161,3 +161,141 @@ using namespace std;
 //         cout<<a<<"      "<<b<<endl;
 //     }
 // }
+
+// int main(){
+//     int n;
+//     cin>>n;
+//     int sum=0;
+//     for(int i=0;i<=n;i++){
+//         // sum=sum+i;
+//         sum+=i;
+//     }
+//     cout<<sum<<endl;
+// }
+
+//Fibonacci Series
+// int main(){
+//     int n,first,second;
+//     cout<<"No fo element in fibonacci series :";
+//     cin>>n;
+//     cout<<"first two element of fibonacci series :"<<endl;
+//     cin>>first>>second;
+//     cout<<first<<" "<<second<<" ";
+//     for(int i=0;i<n;i++){
+//         int next=first+second;
+//         first=second;
+//         second=next;
+//         cout<<next<<" ";
+//     }
+// }
+
+// Prime No
+// int main(){
+//     int n;
+//     bool flag=true;
+//     cin>>n;
+//     for(int i=2;i<n;i++){
+        
+//         if(n%i==0){
+//             flag=false;
+//             break;
+//         }
+// }
+//     if(flag){
+//             cout<<"Prime";
+//     }
+//     else{
+//         cout<<"NOt Prime";
+//     }
+// }
+
+                    // continue
+// int main(){
+//     int n;
+//     cin>>n;
+//     for(int i=0;i<n;i++){
+//         cout<<"Hi"<<endl;
+//         cout<<"Hello"<<endl;
+//         continue;
+//         cout<<"Reply to kar de"<<endl;
+//     }
+// }
+
+// int main(){
+//     int n;
+//     cin>>n;
+//     for(int i=1;i<=n;i++){
+//         cout<<"Good Morning"<<endl;
+//         if(i==2){
+//         continue;
+//         }
+//         cout<<i<<" Reply to kar de"<<endl;
+//     }
+// }
+
+// int main(){
+//     for(int i=0;i<=5;i++){
+//         cout<<i<<" ";
+//         i++;
+//     }
+// }
+
+// int main(){
+//     for(int i=0;i<=15;i+=2){
+//         cout<<i<<" ";
+//         if(i&1){
+//             continue;
+//         }
+//         i++;
+//     }
+// }
+
+// int main(){
+//     for(int i=0;i<5;i++){
+//         for(int j=i;j<=5;j++){
+//         cout<<i<<" "<<j<<endl;
+//         }
+//     }
+// }
+
+// int main(){
+//     for(int i=0;i<5;i++){
+//         for(int j=i;j<=5;j++){
+//             if(i+j==5){
+//                 break;
+//             }
+//         cout<<i<<" "<<j<<endl;
+//         }
+//     }
+// }
+
+            // variable and scope
+// int main(){
+//     int a=0;
+//     cout<<a<<endl;
+//     if(true){
+//         int a=5;
+//         cout<<a<<endl;
+//         a++;
+//         cout<<a<<endl;
+//     }
+//     cout<<a<<endl;
+// }
+// int main(){
+//     int a=0;
+//     cout<<a<<endl;
+//     if(true){
+//         // int a=5;
+//         cout<<a<<endl;
+//         a++;
+//         cout<<a<<endl;
+//     }
+//     cout<<a<<endl;
+// }
+
+// int main(){
+//     int i=4;
+//     for(i;i<5;i++){
+//         cout<<i<<endl;
+//     }
+// }
